@@ -1,0 +1,64 @@
+body {
+    font-family: 'Roboto', sans-serif
+}
+
+.click-button {
+    background-color: #af5b4c;
+    border: 5px solid #8e3e3e;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size:  30px;
+    margin-top: 200px;
+}
+.click-button:hover {
+    background-color: #8e3e3e;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .click-button {
+      animation: button-spin infinite 10s linear;
+    }
+  }
+
+@keyframes button-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+.App {
+    text-align: center;
+  }
+  
+.App-header {
+    background-color: #342828;
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+
+header > h1 {
+    font-size: 1.5em;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+header > h2 {
+    font-size: 1.2em;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
