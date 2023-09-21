@@ -18,7 +18,7 @@ body {
 }
 
 @media (prefers-reduced-motion: no-preference) {
-    .click-button {
+    .button-spin {
       animation: button-spin infinite 10s linear;
     }
   }
